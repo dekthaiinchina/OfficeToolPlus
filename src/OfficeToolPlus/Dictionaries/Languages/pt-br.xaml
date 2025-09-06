@@ -710,12 +710,14 @@
 
     <sys:String x:Key="Settings_Deploy">Gerenciar</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation">Após implementar</sys:String>
-    <sys:String x:Key="Settings_Deploy_Operation.Description">Ação a ser executada após o download ou instalação do Office ser concluído.</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Description">Ação para realizar após concluir o download ou instalação do Office. Algumas ações necessitam de suporte do sistema e privilégios de administrador.</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.None">Nenhuma</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.Quit">Fechar o Office Tool Plus</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.SignOut">Sair</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.Shutdown">Desligar</sys:String>
-    <sys:String x:Key="Settings_Deploy_Operation.Reboot">Reiniciar</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Restart">Reiniciar</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Sleep">Suspender</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Hibernate">Hibernar</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat">Formato de exibição de idiomas do Office</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat.Default">Nome padrão</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat.Native">Nome nativo</sys:String>
@@ -871,7 +873,6 @@
     <sys:String x:Key="Info_Office_Downloading">O Office está sendo baixado.</sys:String>
     <sys:String x:Key="Info_Software_Installation_Complete">A instalação foi concluída.</sys:String>
     <sys:String x:Key="Info_Software_Installation_Failed">A instalação falhou.</sys:String>
-    <sys:String x:Key="Info_Auto_Shutdown">O seu PC será suspenso/desligado/reiniciado em 1 minuto.</sys:String>
     <sys:String x:Key="Info_No_Events">Nenhum evento encontrado.</sys:String>
     <sys:String x:Key="Info_No_Office_Licenses">Nenhuma licença do Office encontrada.</sys:String>
     <sys:String x:Key="Info_No_Office_Product_Key">Nenhuma chave de produto do Office detectada.</sys:String>
@@ -882,6 +883,13 @@
     <sys:String x:Key="Info_KMS_Test_Result.Success">Método de teste KMS: {0}. Resultado do teste: sucesso, tempo decorrido: {1}ms.</sys:String>
     <sys:String x:Key="Info_KMS_Test_Result.Failed">Falha no teste KMS.</sys:String>
     <sys:String x:Key="Info_Enable_Mica">O efeito Mica necessita do Windows 11 para ser exibido.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.SignOut">Você será desconectado em 30 segundos.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Shutdown">O sistema será desligado em 30 segundos.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Restart">O sistema será reiniciado em 30 segundos.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Sleep">O sistema será suspenso em 30 segundos.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Hibernate">O será entrará em hibernação em 30 segundos.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation_Skip">Pular espera</sys:String>
+    <sys:String x:Key="Info_Auto_Operation_Cancel">Cancelar</sys:String>
 
     <!-- Success Message -->
     <sys:String x:Key="Success_Download_Updates">Atualizações aplicadas com sucesso.</sys:String>
@@ -910,7 +918,7 @@
     <sys:String x:Key="Err_Installation_File_Missing">Arquivo ausente: {0}</sys:String>
     <sys:String x:Key="Err_Installation_File_Corrupted">Arquivo corrompido: {0}</sys:String>
     <sys:String x:Key="Err_Installation_Hash">Falha ao verificar hash, arquivo: {0}</sys:String>
-    <sys:String x:Key="Err_Installation_SignatureInvalid">The signature is invalid, file: {0}</sys:String>
+    <sys:String x:Key="Err_Installation_SignatureInvalid">A assinatura é inválida, arquivo: {0}</sys:String>
     <sys:String x:Key="Err_Installation_Version">Falha ao verificar versão, arquivo: {0}&#x000A;Versão: {1}&#x000A;Versão do cliente: {2}</sys:String>
     <sys:String x:Key="Err_Installation_Mismatch">Incompatibilidade de versão, arquivo: {0}&#x000A;Versão atual: {1}&#x000A;Arquitetura: {2}</sys:String>
     <sys:String x:Key="Err_Installation_Redownload">Os arquivos de instalação contém erros. Por favor, tente excluir e baixar novamente.</sys:String>
