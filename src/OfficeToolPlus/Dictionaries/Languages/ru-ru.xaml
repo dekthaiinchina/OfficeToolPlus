@@ -480,15 +480,20 @@
     <sys:String x:Key="Toolbox_Reset_OfficeSettings_GlobalSettings">Удалить предпочтения приложений Настройки</sys:String>
 
     <sys:String x:Key="Toolbox_Windows_Tools">Инструменты Windows</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr">Менеджер переменных сред</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr.Description">Просмотр или сброс пользовательских и системных переменных.</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_UserEnv">Пользовательские переменные</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_SystemEnv">Системные переменные</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Refresh">Обновить</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Variable_Incorrect">Одна или больше из переменных неправильная, пожалуйста, сбросьте их.</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Reset">Сброс</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Reset.Description">Сброс переменных к стандартным значениям.</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc">Сброс службы защиты программного обеспечения</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc.Description">Это сбросит параметры службы защиты ПО, включая настройки KMS.</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc.LearnMore">Узнать больше о сбросе службы защиты программного обеспечения.</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken">Восстановить токен активации Windows</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken.Description">Это восстановит токен активации Windows. Ваш статус активации Windows может быть потерян.</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken.LearnMore">Узнать больше о восстановлении токена активации Windows.</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables">Сбросить системные переменные</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables.Description">Это сбросит ваши системные переменные к значениям по умолчанию. Не используйте его, если вы не уверены.</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables.LearnMore">Узнать больше о сбросе системных переменных.</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI">Восстановление компонентов WMI</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI.Description">Это приведет к перерегистрации компонентов WMI. Не используйте его, если вы не уверены.</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI.LearnMore">Узнать больше о восстановлении компонентов WMI.</sys:String>

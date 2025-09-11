@@ -480,15 +480,20 @@
     <sys:String x:Key="Toolbox_Reset_OfficeSettings_GlobalSettings">Hapus preferensi pengaturan aplikasi</sys:String>
 
     <sys:String x:Key="Toolbox_Windows_Tools">Alat Windows</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr">Environment variable manager</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr.Description">View or reset user or system environment variables.</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_UserEnv">User variables</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_SystemEnv">System variables</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Refresh">Refresh</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Variable_Incorrect">One or more environment variables are incorrect, please try to reset them.</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Reset">Reset</sys:String>
+    <sys:String x:Key="Toolbox_Env_Variable_Mgr_Reset.Description">Reset variables to default values.</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc">Mengatur ulang layanan Software Protection</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc.Description">Ini akan mengatur ulang konfigurasi layanan Software Protection, termasuk konfigurasi KMS.</sys:String>
     <sys:String x:Key="Toolbox_Reset_SPPSvc.LearnMore">Pelajari lebih tentang mengatur ulang layanan Software Protection.</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken">Membangun ulang token aktivasi Windows</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken.Description">Ini akan membangun ulang token aktivasi Windows. Status aktivasi Windows anda mungkin akan hilang.</sys:String>
     <sys:String x:Key="Toolbox_Rebuild_ActivationToken.LearnMore">Pelajari lebih tentang membangun ulang token aktivasi Windows.</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables">Mengatur ulang variabel sistem</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables.Description">Ini akan mengatur ulang variabel sistem ke nilai bawaan. Jangan digunakan apabila anda tidak yakin.</sys:String>
-    <sys:String x:Key="Toolbox_Repair_Variables.LearnMore">Pelajari lebih tentang mengatur ulang variabel sistem.</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI">Perbaiki komponen WMI</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI.Description">Ini akan mendaftarkan ulang komponen WMI. Jangan digunakan apabila anda tidak yakin.</sys:String>
     <sys:String x:Key="Toolbox_Repair_WMI.LearnMore">Pelajari lebih tentang perbaiki komponen WMI.</sys:String>
@@ -710,14 +715,14 @@
 
     <sys:String x:Key="Settings_Deploy">Pemasangan</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation">Setelah pemasangan</sys:String>
-    <sys:String x:Key="Settings_Deploy_Operation.Description">Action to perform after Office download or installation is complete. Some actions require system support and administrator privileges.</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Description">Tindakan yang harus dilakukan setelah pengunduhan atau pemasangan Office selesai. Beberapa tindakkan mmembutuhkan dukungan sistem dan akses istimewa administrator.</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.None">Tidak ada</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.Quit">Menutup Office Tool Plus</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.SignOut">Keluar</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.Shutdown">Mematikan</sys:String>
     <sys:String x:Key="Settings_Deploy_Operation.Restart">Mulai ulang</sys:String>
-    <sys:String x:Key="Settings_Deploy_Operation.Sleep">Sleep</sys:String>
-    <sys:String x:Key="Settings_Deploy_Operation.Hibernate">Hibernate</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Sleep">Tidur</sys:String>
+    <sys:String x:Key="Settings_Deploy_Operation.Hibernate">Hibernasi</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat">Format tampilan bahasa Office</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat.Default">Nama bawaan</sys:String>
     <sys:String x:Key="Settings_Deploy_LanguageFormat.Native">Bahasa umum</sys:String>
@@ -883,13 +888,13 @@
     <sys:String x:Key="Info_KMS_Test_Result.Success">Metode ujicoba KMS: {0}. Hasil ujicoba: berhasil, waktu yang telah berlalu: {1}ms.</sys:String>
     <sys:String x:Key="Info_KMS_Test_Result.Failed">Ujicoba KMS gagal.</sys:String>
     <sys:String x:Key="Info_Enable_Mica">Efek Mika membutuhkan Windows 11 untuk ditampilkan.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation.SignOut">We will sign you out in 30 seconds.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation.Shutdown">The system will shut down in 30 seconds.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation.Restart">The system will restart in 30 seconds.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation.Sleep">The system will enter sleep mode in 30 seconds.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation.Hibernate">The system will enter hibernation in 30 seconds.</sys:String>
-    <sys:String x:Key="Info_Auto_Operation_Skip">Skip wait</sys:String>
-    <sys:String x:Key="Info_Auto_Operation_Cancel">Cancel</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.SignOut">Kami akan mengeluarkan Anda (sign out) dalam 30 detik.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Shutdown">Sistem akan dimatikan dalam waktu 30 detik.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Restart">Sistem akan memulai ulang dalam 30 detik.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Sleep">Sistem akan tidur dalam 30 detik.</sys:String>
+    <sys:String x:Key="Info_Auto_Operation.Hibernate">Sistem akan berhibrnasi dalam 30 detik..</sys:String>
+    <sys:String x:Key="Info_Auto_Operation_Skip">Langkahi menunggu</sys:String>
+    <sys:String x:Key="Info_Auto_Operation_Cancel">Batal</sys:String>
 
     <!-- Success Message -->
     <sys:String x:Key="Success_Download_Updates">Menerapkan pembaruan berhasil.</sys:String>
